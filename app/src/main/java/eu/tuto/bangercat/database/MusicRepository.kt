@@ -9,7 +9,7 @@ class MusicRepository(private val addMusicDao: MusicDao) {
     suspend fun addMusic(user: Data){
         addMusicDao.addMusic(user)
     }
-    fun searchDatabase(searchQuery: String): Flow<List<Data>>{
-        return addMusicDao.searchDatabase(searchQuery)
-    }
+    //fun searchDatabase(searchQuery: String): Flow<List<Data>>{
+        //return addMusicDao.searchDatabase(searchQuery)
+   // }
 }

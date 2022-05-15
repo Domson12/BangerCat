@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="cornerImage">
+        <item name="android:layout_width">81dp</item>
+        <item name="android:layout_height">79dp</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">11dp</item>
+        <item name="color">@color/cardBackground</item>
+    </style>
+    
+</resources>

@@ -16,6 +16,6 @@ interface MusicDao {
     @Query("SELECT * FROM music_table ORDER BY ID ASC")
     fun readAllData(): LiveData<List<Data>>
 
-    @Query("SELECT * FROM music_table ORDER BY ID ASC")
-    fun searchDatabase(searchQuery: String): Flow<List<Data>>
+    //@Query("SELECT * FROM music_table ORDER BY ID ASC")
+    //fun searchDatabase(searchQuery: String): Flow<List<Data>>
 }
