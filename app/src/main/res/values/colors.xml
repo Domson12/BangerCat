@@ -10,4 +10,5 @@
     <color name="SplashScreenLayout">#F25C5C</color>
     <color name="floatingActionButtonColor">#F21111</color>
     <color name="cardBackground">#F25C5C</color>
+    <color name="editTextColor">#FF8C8C</color>
 </resources>

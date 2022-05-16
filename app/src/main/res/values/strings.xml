@@ -7,4 +7,10 @@
     <string name="bangercat">BangerCat</string>
     <string name="musicImage">musicImage</string>
     <string name="text_view">Text View</string>
+    <string name="play">play</string>
+    <string name="add_your_own_music">Add your own music!</string>
+    <string name="author">Author</string>
+    <string name="dots">...</string>
+    <string name="title">Title</string>
+    <string name="add_image">Add Image</string>
 </resources>
