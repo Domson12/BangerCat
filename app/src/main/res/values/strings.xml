@@ -13,4 +13,6 @@
     <string name="dots">...</string>
     <string name="title">Title</string>
     <string name="add_image">Add Image</string>
+    <string name="add_music">add music</string>
+    <string name="add_all">Add all</string>
 </resources>

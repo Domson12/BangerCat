@@ -7,6 +7,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.widget.Button
+import androidx.databinding.DataBindingUtil
 import eu.tuto.bangercat.R
 import eu.tuto.bangercat.databinding.ActivityMainBinding
 
@@ -16,13 +17,10 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
         binding.addButton.setOnClickListener {
             addButtonActivity()
-            Log.e("works", "da clicked")
         }
 
     }
@@ -30,7 +28,6 @@ class MainActivity : AppCompatActivity() {
     private fun addButtonActivity() {
         val intent = Intent(this, AddMusicActivity::class.java)
         startActivity(intent)
-        Log.e("works", "da clicked")
     }
 
 }
